@@ -1,13 +1,18 @@
 {
-  "name": "mcp-regex-server'",
+  "name": "regex-search-mcp-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "MCP Server for regex search with line numbers",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
